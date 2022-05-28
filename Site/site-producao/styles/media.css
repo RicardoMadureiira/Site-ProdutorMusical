@@ -1,0 +1,160 @@
+@media screen and (max-width: 760px) {
+    
+    html {
+        scroll-behavior: smooth;
+      }
+       
+      :target {
+        scroll-margin-top: 90px;
+      }
+
+    header {
+      display: flex;
+
+    }
+
+    header.animate {
+        width: 410px;
+    }
+
+    li {
+           
+        margin-left: 15px;  
+    }
+
+    .login {
+        margin-left: 3px;
+    }
+
+    ul {
+        margin-left: -35px;
+       
+    }
+
+    .left { float:left; width:25%; clear:left; }
+    .right { float:left; width:20%; clear:left; padding-right: 5px; }
+
+    main {
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .descricao > p {
+        word-break: normal;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .area-musica {
+        margin-top: 40px;
+        width: 400px;
+        border: hidden;
+    }
+
+    .article-musica {
+        margin-top: 50px;
+        /* border-top:2px solid #7B68EE; */
+    }
+
+    .article-musica p {
+        font-size: 22px;
+        width: 395px;
+        
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    img {
+        height: 370px;
+        margin: auto;
+    }
+
+    .img-sobre {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aside-sobre {
+        width: 400px;
+        line-height: 30px;
+    }
+
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .descricao-sobre {
+        font-size: 20px;
+    }
+
+    .title-sobre {
+        font-size: 35px;
+        
+        margin-bottom: 25px;
+    }
+
+    .beat {
+        display: block;
+        border-top: none;
+    }
+
+    .lista-beats {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lista-beats p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .contato {
+        height: 1000px;
+     
+    }
+
+    .caixa-producao {
+        width: 300px;
+    }
+
+    .title-contato {
+        font-size: 32px;
+    }
+
+    form {
+        min-width: 250px;
+        height: auto;
+    }
+
+    body {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    header {
+        flex-direction:  row;
+    }
+    
+    h2 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    .area-musica {
+        width: 350px;
+    }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prod</title>
+  <link rel="stylesheet" href="/site-producao/styles/style2.css">
+  <link rel="stylesheet" href="/site-producao/styles/media.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap'); 
+  </style>
+</head>
+<body>
+
+  <section class="sect">
+    <header data-anime="left">
+      <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#sobre"> Sobre</a></li>
+         <li><a href="#beat">Beats</a></li>
+         <li><a href="#contato">Contato</a></li> 
+         <li><a href="" class="login">Login</a></li>
+      </ul>  
+    </header>
+      <main id="home">
+        <aside>
+            <div class="texto">
+              <h2 class="title-prod glow" data-anime="left">Prod. Nany</h2>
+              <span class="descricao" data-anime="left">
+                <p>Faça seu orçamento e grave sua musica comigo.</p>
+                <p>Beats exclusivos, Mixagem e Masterização</p>
+                <p class="sociais" >
+                  <i class="fa fa-instagram" style="font-size:70px;color: #7c68ee"></i>                 
+                  <i class="fa fa-youtube-play" style="font-size:70px;color: #7c68ee"></i>                 
+                  <i class="fa fa-spotify" style="font-size:70px;color: #7c68ee"></i>
+                  <!-- #32CD32 cor green -->
+                </p>
+              </span> 
+            </div>
+          </aside>
+      </main>
+      
+      <article class="article-musica" data-anime="left">
+        <aside data-anime="left">
+          <p>Músicas mais tocadas no Spotify <img src="/site-producao/img/spotify.png" alt=""></p>  
+        </aside>
+          <iframe data-anime="up" class="area-musica" style="border-radius:12px" src="https://open.spotify.com/embed/artist/7dlN2GCn49Rc9ebgBbJbX2?utm_source=generator" width="1000px" height="220px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </article>
+
+      <section class="sobre" id="sobre">
+        <aside class="aside-sobre" data-anime="left">
+          <h2 class="title-sobre" >Quem eu sou?</h2>
+          <span>
+            <p class="descricao-sobre">Sou um produtor br tentando movimentar a cena.</p>
+            <p class="descricao-sobre">" Faz dois anos que estou nesse ramo com o objetivo de crescer ainda mais nesse mercado trazendo minha essência e humildade. "</p>
+          </span>
+        </aside>
+        <div class="img-sobre">
+          <img src="/site-producao/img/nany.jpg" alt="Nany" data-anime="right">
+        </div>
+      </section>
+
+      <section class="beat" id="beat">
+        <div class="title-beat">
+          <h2  data-anime="left">Beats</h2> 
+        </div>
+
+        <div class="lista-beats">
+          <div>
+            <img src="/site-producao/img/beat.png" alt="" data-anime="left">
+            <p>Example 1</p>
+            <p>descrição...</p>
+            <!-- <p><strong>Carrinho</strong></p> -->
+            <!-- <p><strong>Comprar</strong></p> -->
+            <p class="preco">R$ 999,00</p>
+          </div>
+          <div>
+            <img src="/site-producao/img/beat.png" alt="" data-anime="left">
+            <p>Example 2</p>
+            <p>descrição...</p>
+            <p class="preco">R$ 99,00</p>
+          </div>
+          <div>
+            <img src="/site-producao/img/beat.png" alt="" data-anime="left">
+            <p>Example 3</p>
+            <p>descrição...</p>
+            <p class="preco">R$ 199,00</p>
+          </div>
+          <div>
+            <img src="/site-producao/img/beat.png" alt="" data-anime="left">
+            <p>Example 4</p>
+            <p>descrição...</p>
+            <p class="preco">R$ 299,00</p>
+          </div>
+        </div>
+        
+      </section>
+      
+      <section class="contato" id="contato" data-anime="left">
+        <h2 class="title-contato">Faça um Orçamento!</h2>
+        <form class="formulario" action="https://formsubmit.co/nuno1208@hotmail.com" method="POST">
+          <input type="text" name="name" id="text" placeholder="Nome completo">
+          <input type="email" name="email" id="text" placeholder="E-mail">
+          <input type="text" name="whats" id="text" placeholder="WhatsApp">
+          <input type="text" name="musical" id="text" placeholder="Gênero musical">
+          
+          <div class="caixa-producao">
+            <input type="checkbox" name="" id="producao">
+            <label for="producao">Produção do instrumental</label>
+          </div>
+          <div>
+            <input type="checkbox" name="" id="">
+            <label for="voz">Captação de Voz</label>
+          </div>
+          <div>
+            <input type="checkbox" name="" id="">
+            <label for="mixagem">Mixagem e Masterização</label>
+          </div>
+        
+          <textarea name="Escreva uma mensagem..." id="text" cols="30" rows="10" placeholder="Escreva uma mensagem..."></textarea>
+          
+          <input id="submit" type="submit" value="Enviar">
+        </form>
+      </section>
+
+  </section>
+  <footer>
+    Xesquedele...
+  </footer>    
+</body>
+        <script src="/site-producao/home/scriptAnimate.js"></script>
+        <!-- <script src="scriptLoja.js"></script> -->
+</html>
